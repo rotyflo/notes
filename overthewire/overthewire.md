@@ -1,4 +1,5 @@
+# Over the Wire
 #### Notes
-[[bandit]]
+[bandit](bandit.md)
 #### Links
-https://overthewire.org/wargames/
+[overthewire.org/wargames](https://overthewire.org/wargames/)

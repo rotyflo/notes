@@ -1,6 +1,7 @@
+# Bandit
 #### Level 0
 Level 1 Password
-`secret Sw0P1cP2MiQjflzE2CJifQeXRoFzgNB8Vjsebb4L7SYmZhpE9JBBfM+U5ywLN79NIN5WA41F0rPpKutgKHWNF7sIv2aaDfa09ehv4W2X1jE=`
+```secret Sw0P1cP2MiQjflzE2CJifQeXRoFzgNB8Vjsebb4L7SYmZhpE9JBBfM+U5ywLN79NIN5WA41F0rPpKutgKHWNF7sIv2aaDfa09ehv4W2X1jE=```
 
 #### Level 1
 `cat ./-`
