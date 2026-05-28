@@ -1,8 +1,9 @@
 # Bandit
 #### Level 0
 Level 1 Password
-```secret Sw0P1cP2MiQjflzE2CJifQeXRoFzgNB8Vjsebb4L7SYmZhpE9JBBfM+U5ywLN79NIN5WA41F0rPpKutgKHWNF7sIv2aaDfa09ehv4W2X1jE=```
-
+```secret
+jk52RtGC+x4KVFAEsUYMzYn30LSO53vkvOLcQlxUtDrWkuad0RTdpLkRoHZ1bvNPVMJGEZGMS5xL1t525yn4K/paRdJFzpiuPm+jatRKI5U=
+```
 #### Level 1
 `cat ./-`
 
@@ -25,7 +26,9 @@ Level 5 Password
 
 #### Level 5
 list recursive, long, all -> find 1033
-`ls -Rla | grep 1033`
+```
+ls -Rla | grep 1033
+```
 
 recursively find `.file2` in current directory and get path of each
 `find . -name .file2 -ls`
