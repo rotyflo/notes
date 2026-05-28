@@ -1,3 +1,3 @@
 # Notes
-[hackthebox](hackthebox.md)
-[overthewire](overthewire.md)
+- [Hack the Box](hackthebox.md)
+- [Over the Wire](overthewire.md)

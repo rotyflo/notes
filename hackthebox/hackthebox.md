@@ -1,5 +1,6 @@
+# Hack the Box
 #### Notes
-[[academy]]
-[[labs]]
+- [Academy](academy.md)
+- [Labs](labs.md)
 #### Links
-https://hackthebox.com
+[hackthebox.com](https://hackthebox.com)

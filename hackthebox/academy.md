@@ -1,4 +1,4 @@
 #### Notes
-[[crackingintohackthebox]]
+[Cracking Into Hack the Box](crackingintohackthebox.md)
 #### Links
-https://academy.hackthebox.com/
+[academy.hackthebox.com](https://academy.hackthebox.com/)

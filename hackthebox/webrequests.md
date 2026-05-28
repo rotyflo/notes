@@ -1,14 +1,7 @@
+# Web Requests
+
 All about curl.
-### 1 HTTP Fundamentals
-[[#1.1 Hypertext Transfer Protocol (HTTP)]]
-[[#1.2 Hypertext Transfer Protocol Secure (HTTPS)]]
-[[#1.3 HTTP Requests and Responses]]
-[[#1.4 HTTP Headers]]
-### 2 HTTP Methods
-[[#2.1 HTTP Methods and Codes]]
-[[#2.2 GET]]
-[[#2.3 POST]]
-[[#2.4 CRUD API]]
+
 #### 1.1 Hypertext Transfer Protocol (HTTP)
 
 - Port 80 - default HTTP Port
