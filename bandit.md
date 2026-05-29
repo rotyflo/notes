@@ -1,4 +1,8 @@
 # Bandit
+```
+ssh banditX@bandit.labs.overthewire.org -p 2220
+```
+
 #### Level 0
 
 Level 1 Password: `secret CIw56Wxb1myXvJ22NUJjHx9QxUiIbuL6/5kIva7flwaZZBHimYiqYtfE5bIuZuWR+JaNcw5uEMW+Wbgx2Cg8gtJCMnBlT8RXrMoSzRhEhNE=`
@@ -198,4 +202,59 @@ Save key and use it to authenticate into this level
 ```
 ssh -i bandit17.sshkey bandit17@bandit.labs.overthewire.org -p 2220
 ```
+
+Get difference between files
+```
+diff [file1] [file2]
+```
+
+Level 18 Password: `secret ziXaaZFunlwX9Q3mjnOYXb7gTCzmJHq9pCqPMDfcgKcsNdnRnL2vK1ngnBfREmRRLiiSabWD5m1lAZ7nThc4eb6zEkmOpJ+/oZblHndUHUI=`
+
+#### Level 18
+
+Immediately logged out if login with SSH
+
+Password stored in file `readme` in the home directory, so `secure copy` file
+```
+scp -P 2220 bandit18@bandit.labs.overthewire.org:/home/bandit18/readme .
+```
+
+Level 19 Password: `secret dy6baM7mcyx3oykbekgkJO2UY6vEiPB+zY++7YpStFlpRpvcZ3dyh2baRuBEADLNPy8MgOtElTJEuCbTviDPpla05vd+eutPjkQjx6GGvzI=`
+
+#### Level 19
+
+Run `cat` as bandit20
+```
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+Level 20 Password: `secret wP0dxzD66b7hoUYFP0CADDWYIBu1iL9efIe9vH+zX/nVQ0+F1eZf95r6ZYDmg7zBaBPUommrDKvKf/+6C8DXHFwBiIyu+yUs7xa/D9KCxQ8=`
+
+#### Level 20
+
+In the background, listen on port 2345 and respond with the level 20 password (create server)
+```
+nc -l 2345 < /etc/bandit_pass/bandit20 & bash
+```
+
+Run `setuid` binary on the same port as the server
+```
+./suconnect 2345
+```
+
+Level 21 Password: `secret sbZ2iFcvDpHk8+WSc93s0T5RB2/xt+6EUu4rEuLExanUInK+fCcPU6oujW1egcBqqXNgMXYPEpCThwyFOwt+c0g5gyP+xTfW9dKTgGthCkY=`
+
+#### Level 21
+
+List the contents of the directory `/etc/cron.d`
+
+Print the contents of the relevant cron job
+
+Print the contents of the script that the cron job is running
+
+Print the contents of the file that the script is writing to
+
+Level 22 Password: `secret wYPVbyY8mZlOIKjYK1yQ1FlQ8x7DDzoKaTo4iqjNtaAdCn1UXcsw5AxifxMCYxWvjbH5vr0VlJOSdO8sqD3r69qlT92sxfEtdcKisAnisK0=`
+
+#### Level 22
 
